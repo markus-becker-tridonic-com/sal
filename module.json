@@ -10,7 +10,9 @@
   },
   "homepage": "https://github.com/ARMmbed/mbed-net-socket-abstract",
   "license": "Apache-2",
-  "dependencies": {},
+  "dependencies": {
+    "cmsis-core": "*"
+  },
   "scripts": {
     "testReporter": [
       "mbedgt",
